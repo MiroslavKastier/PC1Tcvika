@@ -1,0 +1,16 @@
+"c:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\Build\vcvarsall.bat" x64
+"c:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\Build\vcvarsall.bat" x64
+"c:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Auxiliary\Build\vcvarsall.bat" x64
+
+cl /P /c mainmodule.cpp
+cl /c mainmodule.cpp
+cl mainmodule.obj
+
+cl mainmodule02.cpp libmodule02.cpp
+
+cl /P /c mainmodule03.cpp
+cl /P /c libmodule03.cpp
+cl /c mainmodule03.cpp
+cl /c libmodule03.cpp
+cl mainmodule03.obj libmodule03.obj
+

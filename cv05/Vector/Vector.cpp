@@ -38,6 +38,7 @@ double skalarniSoucin(double a[3], double b[3])
 int main()
 {
     double a[3], b[3], c[3];
+    
     int ans;
 
     do
